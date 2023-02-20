@@ -20,11 +20,11 @@
        <img src="images/qn2.png">
      </details> <br> I was able to solve this question and pass all the tests.
 
-# Daily Tests
+# Daily Challenges
 
 ## Day 1
 
-### PlusMinus - Hackerrank ✅
+### I. PlusMinus - Hackerrank ✅
 
 Given an array of integers, calculate the ratios of its elements that are positive, negative, and zero.
 Print the decimal value of each fraction on a new line with places after the decimal.
@@ -33,3 +33,16 @@ Print the decimal value of each fraction on a new line with places after the dec
      <summary>Example</summary>
        <img src="images/day1q1.png">
      </details>
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+<br>
+
+### II. Min-Max Sum - Hackerrank ✅
+
+Given five positive integers, find the minimum and maximum values that can be calculated by summing exactly four of the five integers. Then print the respective minimum and maximum values as a single line of two space-separated long integers.
+
+<details closed>
+     <summary>Example</summary>
+       <img src="images/day1qn2.png">
+     </details>
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+<br>
