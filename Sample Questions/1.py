@@ -1,22 +1,19 @@
-# The largest two elements in the array can be 1st used and tested.
-# The array is 1st ordered then the largest two elements can be popped and added into a new array.
-# Then the sum is tested and if the sum is not larger then the largest element in the remainning array can be
-# added to array A and the sum recalculated.
-
-
 def subsetA(arr):
-    def subsetA(arr):
-        # sort arr
-        arr.sort()
+    max1 = max(arr)
+    arr.remove(max1)
 
-        listA = [arr.max(), arr.pop()]
+    max2 = max(arr)
+    arr.remove(max2)
 
-        while sum(listA) < sum(arr):
-            listA.append(arr.pop())
-        else:
-            listA.sort()
-            return listA
+    listA = [max1, max2]
+
+    while sum(listA) < sum(arr):
+        listA.append(max(arr))
+        arr.remove(max(arr))
+
+    # sort and return the result
+    print(sorted(listA))
 
 
-arr = [6, 5, 3, 2]
+arr = [6, 5, 3, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]
 subsetA(arr)
