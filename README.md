@@ -46,3 +46,16 @@ Given five positive integers, find the minimum and maximum values that can be ca
      </details>
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
 <br>
+
+### III. Time Conversion - Hackerrank
+
+Given a time in -hour AM/PM format, convert it to military (24-hour) time.
+
+Note: - 12:00:00AM on a 12-hour clock is 00:00:00 on a 24-hour clock and 12:00:00PM on a 12-hour clock is 12:00:00 on a 24-hour clock.
+
+<details closed>
+     <summary>Example</summary>
+       <img src="images/day1qn3.png">
+     </details>
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+<br>
